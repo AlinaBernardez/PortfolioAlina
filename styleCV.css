@@ -1,0 +1,118 @@
+:root {
+    --neon-color: #ff66ab;
+    --darkneon-color: #f82785;
+    --pastel-color: #ffcee4;
+    --darkgrey-color: #494044;
+    --lightgrey-color: #B9B9B9;
+}
+
+.CV {
+    margin: 2rem 3rem 3rem 3rem;
+    width: 90%;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.content {
+    margin-right: 1rem;
+    padding: 3rem 5rem;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 4px var(--lightgrey-color);
+    box-shadow: 2px 2px 3px 3px var(--darkgrey-color);
+}
+.content:hover {
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 4px var(--pastel-color);
+    box-shadow: 
+    0 0 6px var(--darkneon-color),
+    0 0 12px var(--darkneon-color);
+    transition: 0.5s ease-in-out;
+}
+.content-title {
+    text-transform: uppercase;
+}
+.content-text {
+    width: 85%;
+}
+
+.contact-text {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+.bi-telephone-fill {
+    color: var(--darkgrey-color);
+}
+.mailTo {
+    list-style: none;
+}
+.cv-mail, .cv-link {
+    color: var(--darkgrey-color);
+}
+.cv-mail:hover {
+    color: var(--darkneon-color);
+}
+.cv-link:hover {
+    color: var(--darkneon-color);
+}
+
+ul {
+    margin-top: 0.5rem;
+}
+
+.skill-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.skill-box {
+    gap: 0.3rem;
+    padding-left: 1.3rem;
+    width: 50%;
+    height: 90%;
+    border-radius: 3px;
+    border-left: solid 1px var(--darkgrey-color);
+    border-top: solid 1px var(--darkgrey-color);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.skill-text {
+    text-align: left;
+}
+
+h4.exp-text {
+    margin-bottom: 0.3rem;
+}
+
+#contacto, #perfil, #experiencia, #estudios {
+    width: 40%;
+}
+#skills {
+    width: 70%;
+}
+#idiomas {
+    width: 30%;
+    height: 50%;
+}
+#experiencia, #estudios {
+    height: 65vh;
+}
+
+
