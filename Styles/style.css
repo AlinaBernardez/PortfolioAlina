@@ -185,7 +185,7 @@ header {
     max-height: 90%;
     width: 70%;
     min-width: 70%;
-    background-image: url(Media/whitewall.jpg);
+    background-image: url(../Media/whitewall.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
@@ -283,7 +283,7 @@ header {
 }
 .content2 {
     height: 90%;
-    background-image: url(Media/fondo-textura-pared-ladrillo-blanco.jpg);
+    background-image: url(../Media/fondo-textura-pared-ladrillo-blanco.jpg);
     background-size: contain;
     box-sizing: border-box;
     display: flex;
@@ -342,7 +342,7 @@ header {
     justify-content: flex-start;
 }
 .content3 {
-    background-image: url(Media/whitewall.jpg);
+    background-image: url(../Media/whitewall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
@@ -398,7 +398,7 @@ header {
 
 /*Portfolio style*/
 #portfolio {
-    background-image: url(Media/fondo-textura-pared-ladrillo-blanco.jpg);
+    background-image: url(../Media/fondo-textura-pared-ladrillo-blanco.jpg);
     background-size: contain;
     display: flex;
     flex-direction: column;
@@ -586,7 +586,7 @@ footer {
     margin: 0 auto;
     height: auto;
     width: 100%;
-    background-image: url(Media/fondo-textura-pared-ladrillo-blanco.jpg);
+    background-image: url(../Media/fondo-textura-pared-ladrillo-blanco.jpg);
     background-size: contain;
 }
 .footer-wrap {

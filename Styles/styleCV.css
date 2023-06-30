@@ -6,6 +6,11 @@
     --lightgrey-color: #B9B9B9;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .CV {
     margin: 2rem 3rem 3rem 3rem;
     width: 90%;
@@ -19,7 +24,7 @@
 
 .content {
     margin-right: 1rem;
-    padding: 3rem 5rem;
+    padding: 1rem 4rem;
     height: 50vh;
     display: flex;
     flex-direction: column;
@@ -102,10 +107,11 @@ h4.exp-text {
 }
 
 #contacto, #perfil, #experiencia, #estudios {
-    width: 40%;
+    min-width: 40%;
 }
 #skills {
     width: 70%;
+    min-width: 55%;
 }
 #idiomas {
     width: 30%;
@@ -113,6 +119,84 @@ h4.exp-text {
 }
 #experiencia, #estudios {
     height: 65vh;
+    padding: 1.5rem 1.5rem 1.5rem 2.5rem;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .CV {
+        margin: 1rem auto;
+    }
+    .info {
+        margin: 1rem auto;
+    }
+    .home-title {
+        margin-bottom: 1rem;
+    }
+    .skill-wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+    }
+    .skill-box {
+        width: 100%;
+    }
+    h4.skill-text {
+        margin: 0.15rem;
+        font-size: 0.9rem;
+    }
+    li.skill-text {
+        font-size: 0.85rem;
+    }
+    #contacto {
+        height: 50vh;
+    }
+    #perfil, #experiencia, #estudios, #skills {
+        height: 70vh;
+    }
+}
 
+@media only screen and (min-width: 320px) and (max-width: 992px) {
+    .home-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+    .content {
+        padding: 1.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .content-title {
+        margin: 0.6rem 0 0.8rem 0;
+    }
+    #contacto, #perfil, #experiencia, #estudios, #skills {
+        width: 100%;
+    }
+    #idiomas {
+        min-width: 45%;
+    }
+    .contact-text {
+        height: 2rem;
+        width: 50%;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .skill-wrap {
+        gap: 2.5rem;
+    }
+    h4.exp-text {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+    li.exp-text {
+        font-size: 0.9rem;
+    }
+}
