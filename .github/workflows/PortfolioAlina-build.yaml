@@ -14,7 +14,7 @@ on:
         type: string
 
 env:
-  DEPLOYMENT_FOLDER: ./Pages/index.html
+  DEPLOYMENT_FOLDER: ./
 
 jobs:
 # Please do not rename this job
