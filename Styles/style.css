@@ -46,6 +46,10 @@ i {
     color: var(--darkgrey-color);
 }
 
+p {
+    line-height: 1.5;
+}
+
 #headings {
     font-size: 5.5rem;
     z-index: 1;
@@ -99,14 +103,14 @@ header {
 	opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
+	animation-timing-function: ease;
 	animation-duration: 1s;
 }
 .fade-out {
     opacity: 0;
 	animation-name: fadeOutOpacity;
 	animation-iteration-count: 1;
-	animation-timing-function: ease-out;
+	animation-timing-function: ease;
 	animation-duration: 1s;
 }
 
@@ -405,6 +409,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    transition: all 1s ease;
 }
 .work-wrap {
     margin: 0 auto;
@@ -416,6 +421,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 3rem;
+    transition: all 1s ease;
 }
 #neon-work {
     height: 30%;
@@ -434,6 +440,7 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    transition: all 1s ease;
 }
 .work-card:hover {
     cursor: pointer;
@@ -491,10 +498,12 @@ header {
 #g1 {
     visibility: visible;
     display: flex;
+    transition: all 1s ease;
 }
 #g2 {
     visibility: hidden;
     display: none;
+    transition: all 1s ease;
 }
 #img {
     width: 60%;
