@@ -180,6 +180,7 @@ header {
     align-items: flex-start;
     justify-content: flex-start;
     height: 100%;
+    transition: all 1s ease;
 }
 .back {
     max-height: 90%;
@@ -321,7 +322,7 @@ header {
 .qualy-text {
     width: 80%;
     font-size: 1.1rem;
-    text-align: justify;
+    text-align: left;
 }
 .logos {
     height: 4rem;
@@ -390,7 +391,7 @@ header {
 }
 .about-text {
     color: var(--darkgrey-color);
-    text-align: justify;
+    text-align: left;
     width: 70%;
     margin-bottom: 2rem;
 }
